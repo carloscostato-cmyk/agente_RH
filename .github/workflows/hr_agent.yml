@@ -2,7 +2,7 @@ name: HR Specialist Agent (Auto-Pilot)
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Roda a cada 12 horas
+    - cron: '0 */4 * * *' # Roda a cada 4 horas para máxima intensidade
   workflow_dispatch: # Permite rodar manualmente também
 
 jobs:
